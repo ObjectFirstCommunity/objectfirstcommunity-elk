@@ -1,0 +1,1 @@
+{"component_templates":[{"name":"syslog-settings","component_template":{"template":{"settings":{"index":{"number_of_shards":"1","number_of_replicas":"0","refresh_interval":"5s"}}}}}]}

@@ -1,0 +1,1 @@
+{"index_templates":[{"name":"syslog-template","index_template":{"index_patterns":["syslog-*"],"template":{"settings":{},"aliases":{"syslog":{}}},"composed_of":["syslog-settings","syslog-hardware","syslog-services","syslog-security"],"priority":100,"_meta":{"description":"Template for syslog data","created_by":"admin"}}}]}

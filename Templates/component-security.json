@@ -1,0 +1,1 @@
+{"component_templates":[{"name":"syslog-security","component_template":{"template":{"mappings":{"properties":{"access_key_id":{"type":"keyword"},"ip":{"type":"ip"},"user":{"type":"keyword"}}}},"version":1,"_meta":{"description":"Mappings for security-related syslog fields","created_by":"admin"}}}]}

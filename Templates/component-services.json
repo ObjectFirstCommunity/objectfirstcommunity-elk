@@ -1,0 +1,1 @@
+{"component_templates":[{"name":"syslog-services","component_template":{"template":{"mappings":{"properties":{"service_name":{"type":"keyword"},"bucket_name":{"type":"keyword"}}}},"version":1,"_meta":{"description":"Mappings for service-related syslog fields","created_by":"admin"}}}]}
