@@ -125,7 +125,7 @@ export ELASTIC_PASSWORD="your_new_password"
 curl -X GET "https://localhost:9200/_cluster/health?pretty" -u elastic:$ELASTIC_PASSWORD --insecure
 ```
 
-![alt text](images\image2.png)
+![alt text](images/image1.png)
 
 ## Kibana Installation
 
@@ -153,7 +153,7 @@ sudo vi /etc/kibana/kibana.yml
 server.host: "0.0.0.0"
 ```
 
-![alt text](images\image2.png)
+![alt text](images/image2.png)
 
 5. Start and enable Kibana:
 
@@ -180,7 +180,7 @@ cd /usr/share/elasticsearch/bin
 sudo ./elasticsearch-create-enrollment-token --scope kibana
 ```
 
-> ![alt text](images\image4.png)
+> ![alt text](images/image4.png)
 
 2. Copy this token as you'll need it during Kibana's first start.
 
@@ -207,16 +207,16 @@ sudo ./kibana-verification-code
 
 6. Copy the token and enter the verification code in the Kibana web interface (http://your_server_ip:5601).
 
-![alt text](images\image5.png)
-![alt text](images\image6.png)
-![alt text](images\image7.png)
+![alt text](images/image5.png)
+![alt text](images/image6.png)
+![alt text](images/image7.png)
 7. Generate encryption keys for alerts:
 
 ```bash
 cd /usr/share/kibana/bin
 sudo ./kibana-encryption-keys generate
 ```
-![alt text](images\image8.png)
+![alt text](images/image8.png)
 
 8. Add the generated keys to your kibana.yml file:
 
