@@ -111,7 +111,7 @@ sudo systemctl start elasticsearch.service
 sudo /usr/share/elasticsearch/bin/elasticsearch-reset-password -u elastic
 ```
 
-![alt text](images\image1.png)
+![alt text](images/image1.png)
 
 8. Export the password as an environment variable for convenience:
 
@@ -125,7 +125,7 @@ export ELASTIC_PASSWORD="your_new_password"
 curl -X GET "https://localhost:9200/_cluster/health?pretty" -u elastic:$ELASTIC_PASSWORD --insecure
 ```
 
-![alt text](images/image1.png)
+![alt text](images/image2.png)
 
 ## Kibana Installation
 
